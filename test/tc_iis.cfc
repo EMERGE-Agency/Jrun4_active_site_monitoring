@@ -17,7 +17,7 @@
 	</cffunction>
 
 	<cffunction name="process_should_return_a_struct_with_array_values" access="public">
-		<cfset result = obj.process() />
+		<cfset result = obj.getEntries() />
 		<cfset assertIsStruct(result, "The returned value was not a struct.") />
 		<cfloop collection="#result#" item="record" >
 			<cfset assertIsArray(record,"The inner element was not an array.") />

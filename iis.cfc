@@ -1,5 +1,7 @@
-<cffunction name="process" access="public" returntype="struct">
-	<cfreturn loadIISEntriesFromCommandLine() />
+<cffunction name="getEntries" access="public" returntype="struct">
+	<cfset result = loadIISEntriesFromCommandLine() />
+	
+	<cfreturn   />
 </cffunction>
 
 <cffunction name="loadIISEntriesFromCommandLine" access="private" returntype="string">
