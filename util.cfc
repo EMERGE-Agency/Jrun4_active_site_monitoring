@@ -1,4 +1,3 @@
-<cfcomponent>
 <cffunction name="linesToArray" access="public">
 	<cfargument name="source" type="string" />
 	<cfreturn ListToArray(source, "#chr(13)##chr(10)#") />
@@ -11,4 +10,4 @@
 		<cfset ArrayDeleteAt(source, 1) >
 	</cfloop>
 	<cfreturn source />
-</cfcomponent></cffunction>	
+</cffunction>	
