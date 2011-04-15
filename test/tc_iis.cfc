@@ -3,7 +3,7 @@
 		<cfset obj = createObject("component", "iis") />
 		<cfset injectMethod(obj, this, "loadIISEntriesFromCommandLine", "loadIISEntriesFromCommandLine") />
 	</cffunction>
-	
+
 	<cffunction name="tearDown" access="public" returntype="void">
 		<cfset obj = "" />
 	</cffunction>
@@ -23,5 +23,5 @@
 			<cfset assertIsArray(result[record],"The inner element was not an array.") />
 		</cfloop>
 	</cffunction>
-	
+
 </cfcomponent>
