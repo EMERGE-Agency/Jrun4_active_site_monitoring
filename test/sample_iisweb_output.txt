@@ -1,0 +1,11 @@
+Microsoft (R) Windows Script Host Version 5.6
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+Connecting to server ...Done.
+Site Name (Metabase Path)                     Status  IP              Port  Host
+==============================================================================
+Default Web Site (W3SVC/1)                    STARTED ALL             80    N/A
+blueduck_com (W3SVC/10)                      STARTED ALL             80    www.blueduck.com
+nifty_com (W3SVC/1000000000)            STARTED ALL             80    nifty.com
+example_com (W3SVC/1876543212) STARTED 192.168.1.1   80    example.com
+                                                      192.168.1.2   80    subdomain.example.com
