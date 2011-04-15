@@ -20,7 +20,7 @@
 		<cfset result = obj.getEntries() />
 		<cfset assertIsStruct(result, "The returned value was not a struct.") />
 		<cfloop collection="#result#" item="record" >
-			<cfset assertIsArray(record,"The inner element was not an array.") />
+			<cfset assertIsArray(result[record],"The inner element was not an array.") />
 		</cfloop>
 	</cffunction>
 	
